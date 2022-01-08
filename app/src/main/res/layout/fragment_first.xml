@@ -4,22 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragment"
-    android:background="@color/purple_700">
+    android:background="@color/purple_700"
+    android:persistentDrawingCache="animation"
+    tools:context=".FirstFragment">
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="205dp"
         android:layout_height="69dp"
         android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="60sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textStyle="bold"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
